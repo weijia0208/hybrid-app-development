@@ -1,0 +1,33 @@
+<nav>
+  <div class="nav">
+    <a [routerLink] = "['/home']"><img src="assets/images/logo.jpg" alt=""></a>
+    <ul class="list">
+      <li class="chg"><a [routerLink]="['/home']">首页</a></li>
+      <li class="chg"><a [routerLink]="['/tongbu']">同步课</a></li>
+      <li class="chg"><a [routerLink]="['/course']">课程</a></li>
+      <li class="chg"><a [routerLink]="['/shequ']" [queryParams]="{id:800,name:'ll'}">社区</a></li>
+      <li><input type="text"></li>
+   </ul>
+  </div>
+  <div class="mes">
+    <ul>
+      <li><a><img src="assets/images/xiaoxi.jpg" alt=""></a>
+        <ul>
+          <li><a>@我的</a></li>
+          <li><a>收到的赞</a></li>
+          <li><a>评论</a></li>
+        </ul>
+      </li>
+      <li><a href=""><img src="assets/images/touxiang.jpg" alt=""></a>
+        <ul>
+          <li><a href="">个人主页</a></li>
+          <li><a href="">设置</a></li>
+          <li><a href="">退出</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  
+</nav>
+

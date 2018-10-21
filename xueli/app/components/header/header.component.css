@@ -1,0 +1,93 @@
+nav{
+   height:50px;
+    background-color: rgb(247, 247, 247);
+       
+}
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 45px;
+}
+.nav img{
+    width:120px;
+    height:50px;
+    float:left;
+    margin-right:300px;
+}
+.list{
+    float:left;
+}
+.list li{
+    float:left;
+    width:50px;
+    height:50px;
+    margin:0 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.list li a{
+    font-size:14px;
+    color:#333;
+}
+.list .chg:hover{
+    background-color:#ccc; 
+}
+.mes{
+    float:right;
+    margin-right:180px;
+    
+}
+.mes ul{
+    display:inline-table;
+    position:relative; 
+}
+.mes ul li{
+    float:left;
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    text-align: center;
+    margin-left:10px;
+   
+}
+.mes li img{
+    margin-top:10px;
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+}
+.mes li ul{
+    display: none;
+}
+.mes ul li:hover{
+    background-color:#ccc; 
+}
+.mes ul li:hover > ul{
+    display: block;
+}
+.mes li ul{
+    width:120px;
+    height:90px;
+    margin-left:-80px;
+    
+}
+.mes li ul li{
+    width:120px;
+    height:20px;
+    background-color:#fff;
+    border-bottom: 1px solid #ccc;
+    padding:5px 0;
+    /* text-align: center; */
+}
+.mes li ul li a{
+    font-size:14px;
+    color:#333;
+    
+}
+.mes li ul li:hover{
+    background-color:#ff6e3d;
+}
+.mes li ul li a:hover{
+    color:#fff;
+}
+

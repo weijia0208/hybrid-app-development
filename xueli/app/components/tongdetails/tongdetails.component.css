@@ -1,0 +1,67 @@
+.container{
+    width:1000px;
+    margin-top:50px;
+}
+.top{
+    width:165px;
+    height:25px;
+    margin-bottom:10px;
+}
+.top .renwu{
+    float:left;
+    width:80px;
+    height:25px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.top .renwu:hover{
+    background-color:#ff6e3d;
+}
+.top .chengji:hover{
+    background-color:#ff6e3d;
+}
+.top .chengji{
+    float:right;
+    width:80px;
+    height:25px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    
+}
+.top a{
+    color:#333;
+    font-size:14px;
+    padding-left:10px;
+    padding-top:2px;
+}
+.bottom{
+    margin-top:10px;
+}
+.bottom .test{
+    width:1000px;
+    height:80px;
+    border:1px solid #eee;
+    margin-bottom:10px;
+    border-radius: 5px;
+}
+.bottom .test p{
+    padding-top:10px;
+    padding-left:20px;
+    font-size:18px;
+    color:#333;
+}
+.bottom .test .test-b{
+    margin-left:20px;
+    margin-top:10px;
+}
+.bottom .test-b span{
+    font-size:14px;
+    margin-left:10px;
+    color:#ccc;
+}
+.bottom .test img{
+    height:30px;
+    width:30px;
+    border-radius:30px;
+    margin-bottom:-10px;
+}

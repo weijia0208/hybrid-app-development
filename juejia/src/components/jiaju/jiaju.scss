@@ -1,0 +1,66 @@
+jiaju {
+    .slide{
+        height:auto;
+        img{
+            width:100%;
+        }
+    }
+    .grid{
+        width:344px;
+        padding:0px;
+        img{
+            width:100%;
+        }
+        ion-col{
+            position: relative;
+            p{
+                position: absolute;
+                width:105px;
+                bottom:4px;
+                margin-bottom:5px;
+                padding-top:35px;
+                color:#fff;
+                height:105px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+                font-size:18px;
+                
+            }
+        }
+    }
+    .good{
+        width:344px;
+        padding:0;
+        img{
+            width:100%;
+        }
+        ion-col{
+            position:relative;
+            span{
+                display: block;
+                width: 26px;
+                height: 26px;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                color: red;
+                position: absolute;
+                background: #fff;
+                right: 15px;
+                bottom: 25px;
+            }
+            p{
+                position: absolute;
+                width: 163px;
+                bottom:4px;
+                margin-bottom:5px;
+                color: #fff;
+                height: 35px;
+                line-height: 30px;
+                text-align: center;
+                padding-top:5px;
+                background-color:rgba(0,0,0,0.5);
+            }
+        }
+    }
+}
